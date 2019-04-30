@@ -1,7 +1,15 @@
 # SanxynetAds
 
 ## Why this Project?
-Crude operation on Back4app parse server
+This is the first phase of the project which deal with registration, forgot password, login and upload (image,time,date and string) to [Back4app](https://back4app.com/) database. The second phase of the project is lock screen which get image from parse server and display it on lock background.
+Crude operation on [Back4app](https://back4app.com/) parse server.
+
+## Steps to run
+* Fork the repository
+* Go to [Back4app](https://back4app.com/), register, add new app and get your secret keys
+* Add the API key as shown below: APP_ID ?:  "\"YOUR_API_KEY\"" and CLIENT_KEY ?: "\"YOUR_CLIENT_KEY\""
+* Build and run the app
+* Enjoy
 
 ## What Will I Learn?
 In this project you will:
@@ -11,7 +19,7 @@ In this project you will:
 * Select image from device memory
 * Select start and end time
 * Select date
-* Upload image, time and date to back4app parse server
+* Upload image, time and date to [Back4app](https://back4app.com/) parse server
 
 
 ## Used Libraries
