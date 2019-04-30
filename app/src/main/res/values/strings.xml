@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Hasen-r Ads</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="text_view_signup">Don\'t have account? Sign Up</string>
+    <string name="login_button">Login</string>
+    <string name="text_view_login">Login Here</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="verify_email">Please Verify Your Email first</string>
+    <string name="login_fail">Login Fail</string>
+    <string name="retry_again">Please re-try</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="tv_forgot_pass">Forgot Password?</string>
+    <string name="forgot_password_msg">Enter your Registered Email and instructions on how to reset your password will be sent to you</string>
+    <string name="click_to_login">Or click here to login</string>
+    <string name="Register">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="ok">ok</string>
+    <string name="message_register_alert_email_taken">Email Already Exist</string>
+    <string name="message_register_alert_username_taken">Username Already Exist</string>
+    <string name="message_register_alert_login_success">You can now login</string>
+    <string name="message_register_alert_account_error">Account could not be created</string>
+    <string name="oops">Oops!</string>
+    <string name="fill_all_fields">Please make sure you fill all the fields correctly</string>
+    <string name="register_wait">Registering, please wait...</string>
+    <string name="title_register_alert">Account Created Successfully!</string>
+    <string name="login_wait">Login processing...</string>
+    <string name="logout">Logout</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload Image</string>
+
+    <string name="select_time">Choose Duration</string>
+    <string name="select_date">Set Date</string>
+    <string name="enter_end_time">Enter End Time</string>
+    <string name="enter_start_time">Enter Start Time</string>
+    <string name="enter_date">Enter Date</string>
+
+</resources>

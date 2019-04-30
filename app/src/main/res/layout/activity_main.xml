@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="#42A5F5"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:id="@+id/uploader_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@color/dark">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/no_image"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/light" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_select_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+           android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:text="@string/select_time"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_time"
+            style="@style/spinnerItemStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:text="@string/select_date"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:text="@string/select_date"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_text_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_start_time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:text="@string/select_date"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_text_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_end_time" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_image"
+            android:paddingTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

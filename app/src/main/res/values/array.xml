@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_array">
+
+        <item>1 Hour @ rs 500</item>
+        <item>2 Hours @ rs 1000</item>
+        <item>3 Hours @ rs 1500</item>
+        <item>4 Hours @ rs 2000</item>
+        <item>5 Hours @ rs 2500</item>
+        <item>6 Hours @ rs 3000</item>
+        <item>7 Hours @ rs 3500</item>
+        <item>8 Hours @ rs 4000</item>
+        <item>9 Hours @ rs 4500</item>
+        <item>10 Hours @ rs 5000</item>
+        <item>11 Hours @ rs 5500</item>
+        <item>12 Hours @ rs 6000</item>
+        <item>13 Hours @ rs 6500</item>
+        <item>14 Hours @ rs 7000</item>
+        <item>15 Hours @ rs 7500</item>
+        <item>16 Hours @ rs 8000</item>
+        <item>17 Hours @ rs 8500</item>
+        <item>18 Hours @ rs 9000</item>
+        <item>19 Hours @ rs 9500</item>
+        <item>20 Hours @ rs 10000</item>
+        <item>21 Hours @ rs 10500</item>
+        <item>22 Hours @ rs 11000</item>
+        <item>23 Hours @ rs 11500</item>
+        <item>24 Hours @ rs 12000</item>
+    </string-array>
+</resources>
