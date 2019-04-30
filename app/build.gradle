@@ -11,7 +11,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.hasen_rads"
+        applicationId "com.sanxynet_ads"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
@@ -58,7 +58,6 @@ dependencies {
     // ButterKnife Dependency
     implementation 'com.jakewharton:butterknife:10.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
-    // Circular image and progress
+    // Circular image view
     implementation 'de.hdodenhof:circleimageview:3.0.0'
-    implementation 'com.github.lzyzsd:circleprogress:1.2.1'
 }

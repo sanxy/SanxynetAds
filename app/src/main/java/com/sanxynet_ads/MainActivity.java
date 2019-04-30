@@ -142,7 +142,6 @@ public class MainActivity extends AppCompatActivity {
 
     @OnItemSelected(value = R.id.spinner_time, callback = OnItemSelected.Callback.NOTHING_SELECTED)
     void onNothingSelected() {
-//        Toast.makeText(this, "Nothing", Toast.LENGTH_SHORT).show();
     }
 
     @SuppressLint("SetTextI18n")
