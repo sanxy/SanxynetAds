@@ -1,7 +1,7 @@
 # SanxynetAds
 
 ## Why this Project?
-This is the first phase of the project which deal with registration, forgot password, login and upload (image,time,date and string) to [Back4app](https://back4app.com/) database. The second phase of the project is lock screen which get image from parse server and display it on lock background.
+This is the first phase of the project which deal with registration, forgot password, login and upload (image,time,date and string) to [Back4app](https://back4app.com/) database. The second/final phase of the project is [lockscreen](https://github.com/sanxy/LockMe) which get image from parse server and display it on lock background.
 Crude operation on [Back4app](https://back4app.com/) parse server.
 
 ## Steps to run
